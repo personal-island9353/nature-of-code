@@ -1,2 +1,3 @@
-# nature-of-code
-Code from following allong the Nature of Code book
+# The Nature of Code: Follow along
+
+Code from following along The Nature of Code book, available at [https://natureofcode.com/](https://natureofcode.com/).
