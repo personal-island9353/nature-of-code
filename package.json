@@ -1,0 +1,49 @@
+{
+  "name": "nature-of-code",
+  "version": "1.0.0",
+  "description": "Code from following along The Nature of Code book, available at [https://natureofcode.com/](https://natureofcode.com/).",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "format": "prettier . --write",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/personal-island9353/nature-of-code.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/personal-island9353/nature-of-code/issues"
+  },
+  "homepage": "https://github.com/personal-island9353/nature-of-code#readme",
+  "dependencies": {
+    "p5": "^2.0.5"
+  },
+  "devDependencies": {
+    "@eslint/css": "^0.13.0",
+    "@eslint/js": "^9.38.0",
+    "@eslint/json": "^0.13.2",
+    "@eslint/markdown": "^7.5.0",
+    "@types/express": "^5.0.4",
+    "@types/node": "^24.9.1",
+    "@types/p5": "^1.7.7",
+    "eslint": "^9.38.0",
+    "globals": "^16.4.0",
+    "husky": "^9.1.7",
+    "jiti": "^2.6.1",
+    "lint-staged": "^16.2.6",
+    "prettier": "3.6.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.2",
+    "vite": "^7.1.12"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}
