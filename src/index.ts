@@ -6,7 +6,9 @@ const sketch = (p: p5) => {
   };
 
   p.draw = () => {
-    const unused = 0;
+    const foo = 0;
+    const bar = "";
+    console.log(bar / foo);
     p.background(150);
     p.ellipse(p.width / 2, p.height / 2, 50, 50);
   };

@@ -13,12 +13,7 @@ export default defineConfig([
     extends: ["js/recommended"],
     languageOptions: { globals: globals.browser },
   },
-  {
-    ...tseslint.configs.base,
-    rules: {
-      "no-unused-vars": "warn",
-    },
-  },
+  tseslint.configs.recommended,
   {
     files: ["**/*.json"],
     plugins: { json },
