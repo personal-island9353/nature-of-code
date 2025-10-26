@@ -13,4 +13,7 @@ jobs:
           node-version: 22.16.0
       - name: Install dependencies
         run: npm ci
-      - run: npm run build --if-present
+      - name: Run Lint Script
+        run: npm run lint
+      - name: Run Build Script
+        run: npm run build
