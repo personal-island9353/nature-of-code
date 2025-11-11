@@ -1,3 +1,3 @@
-# The Nature of Code: Follow along
+# About this project
 
-Code from following along The Nature of Code book, available at [https://natureofcode.com/](https://natureofcode.com/).
+Code to work along The Nature of Code book from Daniel Shiffman. The book is available at [https://natureofcode.com/](https://natureofcode.com/).
